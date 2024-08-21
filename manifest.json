@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Cel Dividers",
+    "version": "1.0",
+
+    "description": "Adds a context menu when right clicking on a tab that allows for stylization on a tab to visually distinguish itself from other tabs or organize multiple alike tabs visually.",
+    "homepage_url": "https://github.com/Jay-Remm/Cel-Dividers",
+
+    "icons": {
+        "48": "icon-48.png",
+        "96": "icon-96.png"
+    },
+
+    "permissions": [
+        "tabs",
+        "contextMenus",
+        "menus",
+        "activeTab"
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "CelDividers@example.com"
+        }
+    },
+
+    "background": {
+        "scripts": ["app.js"]
+    }
+}
