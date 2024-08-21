@@ -35,7 +35,3 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
             break;
     }
 });
-
-function launchStyleMenu() {
-
-}
