@@ -7,15 +7,17 @@
     "homepage_url": "https://github.com/Jay-Remm/Cel-Dividers",
 
     "icons": {
-        "48": "icon-48.png",
-        "96": "icon-96.png"
+        "16": "icons/Cel_Dividers_16x16.png",
+        "48": "icons/Cel_Dividers_48x48.png",
+        "96": "icons/Cel_Dividers_96x96.png"
     },
 
     "permissions": [
         "tabs",
         "contextMenus",
         "menus",
-        "activeTab"
+        "activeTab",
+        "theme"
     ],
 
     "browser_specific_settings": {
